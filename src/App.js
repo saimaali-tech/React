@@ -25,6 +25,11 @@ function App() {
           <li key={index}>{t}</li>
         ))}
       </ul>
+      <ul>
+  {tasks.map((t, index) => (
+    <li key={index}>{t}</li>
+  ))}
+</ul>
 
     </div>
   );
